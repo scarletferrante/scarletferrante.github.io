@@ -1,4 +1,7 @@
 
+
+// Class - Defined as a template the describes the behavior/state that the object of its type support
+// Object - Have states and behaviors. 
 class Recipe{
 
 	public static void main(String[] args){
@@ -10,11 +13,13 @@ class Recipe{
 	public Recipe(){
 	}
 
+	// Object - recipe
+	// State - title, ingrediants, from
+	// Behaviors - 
 
 
 
-
-
+	/*
 
 	// Read the file
 	String fileName = "x";
@@ -53,7 +58,8 @@ class Recipe{
 	// Set the contents to a string variable
 	// Set the name of the file to a string title
 	// Make a recipe with the contents and title 
-
+	
+	*/
 }
 
 
@@ -62,3 +68,4 @@ class Recipe{
 
 // Resources
 // https://www.caveofprogramming.com/java/java-file-reading-and-writing-files-in-java.html
+// https://www.tutorialspoint.com/java/java_object_classes.htm
