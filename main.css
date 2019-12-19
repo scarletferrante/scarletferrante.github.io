@@ -1,0 +1,36 @@
+h1 {
+	font-size: 5rem;
+}
+
+h2 {
+	font-size: 3rem;
+
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.main {
+
+}
+
+.recipe {
+
+}
+
+.recipe {
+	border: 2px solid black;
+	padding: 20px;
+}
+
+.pic {
+	border: 2px solid black;
+	padding: 30px;
+}
+
+.recipe a {
+	display: block;
+}
