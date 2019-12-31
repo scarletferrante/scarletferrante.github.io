@@ -2,6 +2,12 @@
 /*
 Position
 - relative: This value positions page elements on a webpage relative to where they would normally appear
+
+Display
+- flex: Display value that allows us to easily align multiple page elements vertically or horizontally
+
+Float
+- property used to float HTML elements left or right of neighboring elements
 */
 
 .container {
@@ -19,3 +25,4 @@ Position
 .recipe {
 	border: 2px solid black;
 }
+
