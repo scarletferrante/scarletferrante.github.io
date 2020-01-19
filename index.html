@@ -7,7 +7,7 @@
         <meta name="description" content="Our first page">
         <meta name="keywords" content="html tutorial template">
 
-        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
         <!--Bootstrap*/-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
     </head>
@@ -16,7 +16,9 @@
 
         <header class="container">
             <div class="row">
-                <h1 class="row text-center">Cookbook</h1>
+                <div class="row text-center">
+                    <h1>Cookbook</h1>
+                </div>
             </div>
         </header>
 
@@ -32,82 +34,91 @@
 
         <section class="container">
             <div class="row">
-                <button class="col-sm-12">
-                    <h3>Chocolate Chip Cookies</h3>
-                </button>
-                <!--<img class="pic" src="https://www.kingarthurflour.com/sites/default/files/styles/featured_image/public/recipe_legacy/4439-3-large.jpg?itok=w9p7CTiE">
-                <a href="https://www.kingarthurflour.com/recipes/chocolate-chip-oatmeal-cookies-recipe">https://www.kingarthurflour.com/recipes/chocolate-chip-oatmeal-cookies-recipe</a>-->
-                <h4>Ingredients</h4>
-                <ol>
-                    <li>1 cup unsalted butter, at room temperature</li>
-                    <li>1 cup light brown sugar, packed</li>
-                    <li>1/2 cup granulated sugar</li>
-                    <li>1 large egg, at room temperature</li>
-                    <li>1 large egg yolk, at room temperatur</li>
-                    <li>2 cups all purpose flour</li>
-                    <li>1 cup quick-cooking or old-fashioned oats</li>
-                    <li>1 teaspoon baking powder</li>
-                    <li>1 teaspoon baking soda</li>
-                    <li>1 teaspoon kosher salt or 3/4 teaspoon regular table salt</li>
-                    <li>3 cups semisweet chocolate chips</li>
-                </ol>
+                <div class="row text-center">
+                    <button onclick="myFunction()">
+                        <h3>Chocolate Chip Cookies</h3>
+                    </button>
+                </div>
 
-                <h4>Instructions</h4>
-                <ol>
-                    <li>Preheat the oven to 325°F. Line several cookie sheets with parchment paper, or lightly grease with non-stick vegetable oil spray</li>
-                    <li>Beat together the butter and sugars until smooth.</li>
-                    <li>Beat in the egg, egg yolk, and vanilla.</li>
-                    <li>Whisk together the flour, oats, baking powder, baking soda, and salt, and add to the butter mixture in the bowl.</li>
-                    <li>Mix until everything is thoroughly incorporated. Scrape the bottom and sides of the bowl, and mix briefly.</li>
-                    <li>Stir in the chocolate chips.</li>
-                    <li>Decide what size cookies you want to make. A muffin scoop (1/4 cup) will make 20 large, palm-sized cookies. A tablespoon cookie scoop (4 teaspoons) will make 50 medium (2 3/4" to 3") cookies; and a teaspoon cookie scoop (2 teaspoons) will make 100 small (2 1/2") cookies.</li>
-                    <li>Scoop the dough onto the prepared baking sheets, leaving about 1 1/2" to 2" between cookies.</li>
-                    <li>Bake the cookies for 12 to 17 minutes, until they're a light golden brown, with slightly darker edges. Their middles may still look a tiny bit shiny; that's OK, they'll continue to bake as they cool on the pan.</li>
-                    <li>Remove the cookies from the oven, and as soon as they're set enough to handle, transfer them to racks to cool.</li>
-                </ol>
-                <h5>Tips from our Bakers</h5>
-                    <ul>
-                        <li>These cookies make wonderful ice cream sandwiches. Sandwich two cookies around a scoop of softened ice cream — we especially like Ben & Jerry's (Phish Food!). </li>
-                        <li>Feel free to substitute a 1-pound bag of chocolate chips for the 18 ounces (3 cups) called for. </li>
-                        <li>Baking gluten-free? For great results, substitute King Arthur Gluten-Free Measure for Measure Flour for the all-purpose flour in this recipe; no other changes needed. Or enjoy our recipe for Gluten-Free Chocolate Chip Oatmeal Cookies.</li>
-                        <li>Refrigerating cookie dough for as little as 30 minutes can make a big difference in your cookies’ texture and flavor. See the details in our blog post, Chilling cookie dough.</li>
-                    </ul>
+                <div class="recipe-deets">
+                    <!--<img class="pic" src="https://www.kingarthurflour.com/sites/default/files/styles/featured_image/public/recipe_legacy/4439-3-large.jpg?itok=w9p7CTiE">
+                    <a href="https://www.kingarthurflour.com/recipes/chocolate-chip-oatmeal-cookies-recipe">https://www.kingarthurflour.com/recipes/chocolate-chip-oatmeal-cookies-recipe</a>-->
+                    <h4>Ingredients</h4>
+                    <ol>
+                        <li>1 cup unsalted butter, at room temperature</li>
+                        <li>1 cup light brown sugar, packed</li>
+                        <li>1/2 cup granulated sugar</li>
+                        <li>1 large egg, at room temperature</li>
+                        <li>1 large egg yolk, at room temperatur</li>
+                        <li>2 cups all purpose flour</li>
+                        <li>1 cup quick-cooking or old-fashioned oats</li>
+                        <li>1 teaspoon baking powder</li>
+                        <li>1 teaspoon baking soda</li>
+                        <li>1 teaspoon kosher salt or 3/4 teaspoon regular table salt</li>
+                        <li>3 cups semisweet chocolate chips</li>
+                    </ol>
+
+                    <h4>Instructions</h4>
+                    <ol>
+                        <li>Preheat the oven to 325°F. Line several cookie sheets with parchment paper, or lightly grease with non-stick vegetable oil spray</li>
+                        <li>Beat together the butter and sugars until smooth.</li>
+                        <li>Beat in the egg, egg yolk, and vanilla.</li>
+                        <li>Whisk together the flour, oats, baking powder, baking soda, and salt, and add to the butter mixture in the bowl.</li>
+                        <li>Mix until everything is thoroughly incorporated. Scrape the bottom and sides of the bowl, and mix briefly.</li>
+                        <li>Stir in the chocolate chips.</li>
+                        <li>Decide what size cookies you want to make. A muffin scoop (1/4 cup) will make 20 large, palm-sized cookies. A tablespoon cookie scoop (4 teaspoons) will make 50 medium (2 3/4" to 3") cookies; and a teaspoon cookie scoop (2 teaspoons) will make 100 small (2 1/2") cookies.</li>
+                        <li>Scoop the dough onto the prepared baking sheets, leaving about 1 1/2" to 2" between cookies.</li>
+                        <li>Bake the cookies for 12 to 17 minutes, until they're a light golden brown, with slightly darker edges. Their middles may still look a tiny bit shiny; that's OK, they'll continue to bake as they cool on the pan.</li>
+                        <li>Remove the cookies from the oven, and as soon as they're set enough to handle, transfer them to racks to cool.</li>
+                    </ol>
+                    <h5>Tips from our Bakers</h5>
+                        <ul>
+                            <li>These cookies make wonderful ice cream sandwiches. Sandwich two cookies around a scoop of softened ice cream — we especially like Ben & Jerry's (Phish Food!). </li>
+                            <li>Feel free to substitute a 1-pound bag of chocolate chips for the 18 ounces (3 cups) called for. </li>
+                            <li>Baking gluten-free? For great results, substitute King Arthur Gluten-Free Measure for Measure Flour for the all-purpose flour in this recipe; no other changes needed. Or enjoy our recipe for Gluten-Free Chocolate Chip Oatmeal Cookies.</li>
+                            <li>Refrigerating cookie dough for as little as 30 minutes can make a big difference in your cookies’ texture and flavor. See the details in our blog post, Chilling cookie dough.</li>
+                        </ul>
+                </div>
             </div>
 
             <div class="row">
-                <button class="col-sm-12">
-                    <h3>Mary Joe's Pie Crust</h3>
-                </button>
-                <!--<img class="pic" src="https://www.kingarthurflour.com/sites/default/files/styles/featured_image/public/recipe_legacy/4439-3-large.jpg?itok=w9p7CTiE">
-                <a href="https://www.kingarthurflour.com/recipes/chocolate-chip-oatmeal-cookies-recipe">https://www.kingarthurflour.com/recipes/chocolate-chip-oatmeal-cookies-recipe</a>-->
-                <h4>Ingredients</h4>
-                <ol>
-                    <li>4 cups flour</li>
-                    <li>1 Tbl sugar</li>
-                    <li>2 tsp salt</li>
-                    <li>1.5 cup crisco + 1/4 cup butter</li>
-                    <li>1 Tbl white/cider vinegar</li>
-                    <li>1 egg</li>
-                    <li>1/2 cup water</li>
-                </ol>
+                <div class="row text-center">
+                    <button onclick="myFunction()">
+                        <h3>Mary Joe's Pie Crust</h3>
+                    </button>
+                </div>
 
-                <h4>Instructions</h4>
-                <ol>
-                    <<li>Mix first 3 ingredients.</li>
-                    <li>Add shortening and butter and cut it in until into pea size pieces.</li>
-                    <li>Beat egg first</li>
-                    <li>Beat 1/2 cup water, vinegar, and egg.</li>
-                    <li>Combine with first mixture, stirring until moistened. Use a fork</li>
-                    <li>In the bowl make into a ball as best you can. Then wrap it in plastic wrap.</li>
-                    <li>Chill 1/2 hour in frig</li>
-                    <li>Divide equally into 5 round patties - wrap plastic wrap or wax paper</li>
-                    <li>Freeze until ready to use</li>
-                </ol>
-                <h5>Tips from our Bakers</h5>
-                    <ul>
-                        <li>TMetal bowls works best! Broad and not deep.</li>
-                    </ul>
+                <div class="recipe-deets">
+                    <h4>Ingredients</h4>
+                    <ol>
+                        <li>4 cups flour</li>
+                        <li>1 Tbl sugar</li>
+                        <li>2 tsp salt</li>
+                        <li>1.5 cup crisco + 1/4 cup butter</li>
+                        <li>1 Tbl white/cider vinegar</li>
+                        <li>1 egg</li>
+                        <li>1/2 cup water</li>
+                    </ol>
+
+                    <h4>Instructions</h4>
+                    <ol>
+                        <li>Mix first 3 ingredients.</li>
+                        <li>Add shortening and butter and cut it in until into pea size pieces.</li>
+                        <li>Beat egg first</li>
+                        <li>Beat 1/2 cup water, vinegar, and egg.</li>
+                        <li>Combine with first mixture, stirring until moistened. Use a fork</li>
+                        <li>In the bowl make into a ball as best you can. Then wrap it in plastic wrap.</li>
+                        <li>Chill 1/2 hour in frig</li>
+                        <li>Divide equally into 5 round patties - wrap plastic wrap or wax paper</li>
+                        <li>Freeze until ready to use</li>
+                    </ol>
+                    <h5>Tips from our Bakers</h5>
+                        <ul>
+                            <li>Metal bowls works best! Broad and not deep.</li>
+                        </ul>
+                </div>
             </div>
+
         </section>
     
         <footer class="container">
@@ -121,6 +132,19 @@
                 </ul> 
             </div>
         </footer>
+
+
+
+        <script>
+            function myFunction() {
+              var x = document.getElementsByClassName("recipe-deets");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
 
     </body>
     </html>

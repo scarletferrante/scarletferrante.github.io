@@ -10,19 +10,8 @@ Float
 - property used to float HTML elements left or right of neighboring elements
 */
 
-.container {
-
+.container ol{
+	list-style-type: none;
 }
 
-.main {
-
-}
-
-.recipe {
-
-}
-
-.recipe {
-	border: 2px solid black;
-}
 
