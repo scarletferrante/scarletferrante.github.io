@@ -6,6 +6,7 @@
         <title>Cookbook</title>
         <meta name="description" content="Our first page">
         <meta name="keywords" content="html tutorial template">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
         <!--Bootstrap*/-->
@@ -40,7 +41,7 @@
                     </button>
                 </div>
 
-                <div class="recipe-deets">
+                <div class="example">
                     <!--<img class="pic" src="https://www.kingarthurflour.com/sites/default/files/styles/featured_image/public/recipe_legacy/4439-3-large.jpg?itok=w9p7CTiE">
                     <a href="https://www.kingarthurflour.com/recipes/chocolate-chip-oatmeal-cookies-recipe">https://www.kingarthurflour.com/recipes/chocolate-chip-oatmeal-cookies-recipe</a>-->
                     <h4>Ingredients</h4>
@@ -88,7 +89,7 @@
                     </button>
                 </div>
 
-                <div class="recipe-deets">
+                <div class="example">
                     <h4>Ingredients</h4>
                     <ol>
                         <li>4 cups flour</li>
@@ -137,12 +138,14 @@
 
         <script>
             function myFunction() {
-              var x = document.getElementsByClassName("recipe-deets");
-              if (x.style.display === "none") {
-                x.style.display = "block";
-              } else {
-                x.style.display = "none";
-              }
+              var x = document.getElementsByClassName("example");
+                for (var i = 0; i < x.length; i++) {
+                    if(x[i].style.display === "none"){
+                        x[i].style.display = "block";
+                    } else{
+                        x[i].style.display = "none";
+                    }
+                }
             }
         </script>
 
