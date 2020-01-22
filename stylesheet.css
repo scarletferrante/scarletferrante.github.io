@@ -15,11 +15,13 @@ ol, ul{
 }
 
 .jumbotron {
-    min-height: 250px;
-} /* will restrict the layout to take minimum height of 250 px
+    min-height: 250px; /* will restrict the layout to take minimum height of 250 px
  irrespective of the elements inside */
- 
-.jumbotron {
     padding: 5em inherit;
-} /*You can add the corresponding values to get desired results */
+    
+    /*https://tutorialzine.com/2015/09/quick-tip-the-simplest-way-to-center-elements-vertically-and-horizontally*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 
