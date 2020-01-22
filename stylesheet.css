@@ -10,7 +10,7 @@ Float
 - property used to float HTML elements left or right of neighboring elements
 */
 
-.container ol{
+ol, ul{
 	list-style-type: none;
 }
 
