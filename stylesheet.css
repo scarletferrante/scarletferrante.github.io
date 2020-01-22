@@ -14,3 +14,18 @@ Float
 	list-style-type: none;
 }
 
+.jumbotron {
+    min-height: 250px;
+} /* will restrict the layout to take minimum height of 250 px
+ irrespective of the elements inside */
+ 
+.jumbotron {
+    padding: 5em inherit;
+} /*You can add the corresponding values to get desired results */
+
+/* https://www.w3.org/Style/Examples/007/center.en.tmpl */
+input {
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle
+}
