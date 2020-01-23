@@ -9,9 +9,13 @@ Display
 Float
 - property used to float HTML elements left or right of neighboring elements
 */
-
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 200%;
+}
 ol, ul{
 	list-style-type: none;
+	font-family: 'Martel', serif;
 }
 
 .jumbotron {
@@ -23,10 +27,22 @@ ol, ul{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-image: linear-gradient(rgba(255,0,0,0), white, rgba(255,0,0,0));
-
+	
+	background-image: url("fresh2.jpg");
+	background-position: top;
 } 
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 150%;
+}
+h4 {
+	font-family: 'Amatic SC', cursive;
+}
+ol {
+	font-family: 'Martel', serif;
+}
+
 
 
 
