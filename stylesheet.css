@@ -23,5 +23,11 @@ ol, ul{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-image: linear-gradient(rgba(255,0,0,0), white, rgba(255,0,0,0));
+
 } 
+
+
+
 
